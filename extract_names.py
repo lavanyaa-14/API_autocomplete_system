@@ -31,5 +31,5 @@ for query in queries:
         page += 1
         time.sleep(1)  # rate limiting prevent
 
-print(f"✅ Total API requests: {request_count}")
-print(f"✅ Total unique names extracted: {len(collected_names)}")
+print(f" Total API requests: {request_count}")
+print(f" Total unique names extracted: {len(collected_names)}")
