@@ -4,7 +4,7 @@ import time
 
 base_url = "http://35.200.185.69:8000/v1/autocomplete"
 
-queries = [chr(i) for i in range(97, 123)]  # ie ['a', 'b', ..., 'z']
+queries = [chr(i) for i in range(97, 123)]
 collected_names = set()
 request_count = 0
 
